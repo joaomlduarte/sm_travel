@@ -27,7 +27,7 @@ No emulador Android, a API usa `http://10.0.2.2:3000`. Para usar no celular fís
 flutter run --dart-define=API_URL=http://192.168.0.10:3000
 ```
 
-Troque o IP do exemplo pelo seu. Se o Android impedir a conexão HTTP local, confirme que o arquivo `android/app/src/main/AndroidManifest.xml` tem `android:usesCleartextTraffic="true"` no elemento `application` (o `flutter create .` pode recriar esse arquivo).
+Troque o IP do exemplo pelo seu. O manifesto Android já permite a conexão HTTP com o servidor local.
 
 Para testar o login sem cadastrar: `aluno@teste.com` / `123456`. Também dá para criar uma conta na tela de cadastro. Este JSON Server é apenas para a atividade: a senha fica em texto no arquivo de exemplo.
 
