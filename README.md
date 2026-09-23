@@ -32,3 +32,5 @@ Troque o IP do exemplo pelo seu. O manifesto Android já permite a conexão HTTP
 Para testar o login sem cadastrar: `aluno@teste.com` / `123456`. Também dá para criar uma conta na tela de cadastro. Este JSON Server é apenas para a atividade: a senha fica em texto no arquivo de exemplo.
 
 O total segue a fórmula da aula: `(diárias × valor da diária) + (acompanhantes × valor por pessoa)`. O custo de acompanhantes entra uma vez por viagem, conforme o enunciado.
+
+As fotos dos destinos e seus créditos estão em `imagens/FONTES.md`.

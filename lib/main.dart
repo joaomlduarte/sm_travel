@@ -46,16 +46,16 @@ class DadosDestino {
 }
 
 const destinos = <DadosDestino>[
-  DadosDestino('Angra dos Reis', 'imagens/angra.png', 384, 70),
-  DadosDestino('Jericoacoara', 'imagens/jericoacoara.png', 571, 75),
-  DadosDestino('Arraial do Cabo', 'imagens/arraial.png', 534, 65),
-  DadosDestino('Florianópolis', 'imagens/florianopolis.png', 348, 85),
-  DadosDestino('Madri', 'imagens/madri.png', 401, 85),
-  DadosDestino('Paris', 'imagens/paris.png', 546, 95),
-  DadosDestino('Orlando', 'imagens/orlando.png', 616, 105),
-  DadosDestino('Las Vegas', 'imagens/las_vegas.png', 504, 110),
-  DadosDestino('Roma', 'imagens/roma.png', 478, 85),
-  DadosDestino('Chile', 'imagens/chile.png', 446, 95),
+  DadosDestino('Angra dos Reis', 'imagens/angra.jpg', 384, 70),
+  DadosDestino('Jericoacoara', 'imagens/jericoacoara.jpg', 571, 75),
+  DadosDestino('Arraial do Cabo', 'imagens/arraial.jpg', 534, 65),
+  DadosDestino('Florianópolis', 'imagens/florianopolis.jpg', 348, 85),
+  DadosDestino('Madri', 'imagens/madri.jpg', 401, 85),
+  DadosDestino('Paris', 'imagens/paris.jpg', 546, 95),
+  DadosDestino('Orlando', 'imagens/orlando.jpg', 616, 105),
+  DadosDestino('Las Vegas', 'imagens/las_vegas.jpg', 504, 110),
+  DadosDestino('Roma', 'imagens/roma.jpg', 478, 85),
+  DadosDestino('Chile', 'imagens/chile.jpg', 446, 95),
 ];
 
 class Carrinho extends ChangeNotifier {
